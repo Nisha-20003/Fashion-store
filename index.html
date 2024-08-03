@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Design</title>
+</head>
+<style>
+    .container1{
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 225px 225px;
+        grid-gap: 15px;
+        height: 100vh;
+        align-content: center;
+    }
+    .item{
+        border: 2px solid blue;
+        border-radius: 13px;
+    }
+    div#one{
+        grid-row: 1/3;
+         background-image: url("images (15).jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+    #plusicon{
+        width: 26px;
+        height: 26px;
+        background-color: white;
+        border-radius: 4px;
+        position: relative;
+        left: 30px;
+        top: 30px;
+        padding: 5px
+    }
+    #p1{
+        font-weight: 300;
+        color: white;
+        position: relative;
+        top: 350px;
+        left: 35px;
+    }
+     #p2{
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+        position: relative;
+        top: 350px;
+        left: 35px;
+    }
+    div#two{
+        background-image: url("images (16).jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+    #p3{
+        font-weight: 300;
+        color: white;
+        position: relative;
+        top: 120px;
+        left: 35px;
+    }
+    #p4{
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+        position: relative;
+        top: 120px;
+        left: 35px;
+    }
+    .link{
+        border: 2px solid black;
+        margin: 3px;
+        border-radius: 5px;
+        display: inline-block;
+        width: 70px;
+        height: 20px;
+        padding-left: 15px;
+        }
+     a{
+         text-decoration: none;
+     }
+     a:hover{
+         color: white;
+         background-color: black;
+     }
+     a:hover img.image{
+         width: 10px;
+         height: 10px;
+         background-color: white;
+     }
+     .image{
+         height: 12px;
+         width: 12px;
+         position: relative;
+         left: -10px;
+     }
+     #p7{
+         position: relative;
+         top: 70px;
+         left: 20px;
+         font-size: 30px;
+         font-weight: bold;
+     }
+     div img#image1{
+         height: 40px;
+     }
+     p8{
+         margin:5px;
+     }
+</style>
+<body>
+    <section class="container1">
+    <div class="container">
+          <div class="item" id="one">
+              <div id="plusicon">
+     <img src="plus.png" alt="#"></div>
+     <div id="p1">Superior clarity</div>
+     <div id="p2">High Quality</div>
+          </div>
+     <div class="item">
+         <div class="topLink">
+             <a href="#" class="link"><img class="image" src="cross.png" alt="">Beauty</a>
+             <a href="#" class="link"><img class="image" src="cross.png" alt="">People</a>
+             <a href="#" class="link"><img class="image" src="cross.png" alt="">Serene</a>
+         </div>
+         <div class="middleLink">
+              <a href="#" class="link"><img class="image" src="cross.png" alt="">Thrend</a>
+              <a href="#" class="link"><img class="image" src="cross.png" alt="">Vibrant</a>
+            <a href="#" class="link"><img class="image" src="cross.png" alt="">Latest</a>
+            <a href="#" class="link"><img class="image" src="cross.png" alt="">Thrend</a>
+         </div>
+         <div class="downLink">
+             <a href="#" class="link"><img class="image" src="cross.png" alt="">More</a>
+         </div>
+         <div id="p7" class="p8"><img src="turn-right.png" id="image1" class="p8"alt="">Seeing thrending collection</div>
+         </div>
+         
+        <div class="item" id="two">
+              <div id="plusicon">
+     <img src="plus.png" alt="#"></div>
+     <div id="p3">Comprehensive categories</div>
+     <div id="p4">Diverse collection</div></div>
+         </div>
+         </section>
+</body>
+</html>   
